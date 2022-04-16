@@ -1,0 +1,1 @@
+package com.example.cleanarchitecture.utilsimport com.example.domain.models.models.Cocktailimport com.example.domain.models.models.CocktailListsealed class UserResource {    object Loading : UserResource()    data class Success(val list: CocktailList) : UserResource()    data class Error(val message: String) : UserResource()}
